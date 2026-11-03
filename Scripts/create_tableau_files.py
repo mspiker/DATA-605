@@ -15,7 +15,7 @@ INPUT_FILES = [
     "state_monthly_drought_pdsi.csv",
     "state_monthly_precipitation.csv",
     "state_monthly_temperature_normals.csv",
-    "ERR_state_monthly_wildfire_incidents_acres.csv",
+    "state_monthly_wildfire_incidents_acres.csv",
 ]
 
 KEY_COLUMNS = ("State Code", "Year", "Month")
