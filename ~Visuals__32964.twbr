@@ -1,0 +1,2029 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='5cce92bfe8310afedd6cd0a752d4258b05174c85f6fa343c0e9885b3c6d0ab63' _.fcp.WorkbookFingerprinting.true...creator-author-id='5cce92bfe8310afedd6cd0a752d4258b05174c85f6fa343c0e9885b3c6d0ab63' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='5cce92bfe8310afedd6cd0a752d4258b05174c85f6fa343c0e9885b3c6d0ab63' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='5cce92bfe8310afedd6cd0a752d4258b05174c85f6fa343c0e9885b3c6d0ab63' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Select State' datatype='string' name='[Parameter 1801887785537541]' param-domain-type='list' role='measure' type='nominal' value='&quot;All States&quot;'>
+        <calculation class='tableau' formula='&quot;All States&quot;' />
+        <members>
+          <member value='&quot;All States&quot;' />
+          <member value='&quot;Alabama&quot;' />
+          <member value='&quot;Arizona&quot;' />
+          <member value='&quot;Arkansas&quot;' />
+          <member value='&quot;California&quot;' />
+          <member value='&quot;Colorado&quot;' />
+          <member value='&quot;Connecticut&quot;' />
+          <member value='&quot;Delaware&quot;' />
+          <member value='&quot;Florida&quot;' />
+          <member value='&quot;Georgia&quot;' />
+          <member value='&quot;Idaho&quot;' />
+          <member value='&quot;Illinois&quot;' />
+          <member value='&quot;Indiana&quot;' />
+          <member value='&quot;Iowa&quot;' />
+          <member value='&quot;Kansas&quot;' />
+          <member value='&quot;Kentucky&quot;' />
+          <member value='&quot;Louisiana&quot;' />
+          <member value='&quot;Maine&quot;' />
+          <member value='&quot;Maryland&quot;' />
+          <member value='&quot;Massachusetts&quot;' />
+          <member value='&quot;Michigan&quot;' />
+          <member value='&quot;Minnesota&quot;' />
+          <member value='&quot;Mississippi&quot;' />
+          <member value='&quot;Missouri&quot;' />
+          <member value='&quot;Montana&quot;' />
+          <member value='&quot;Nebraska&quot;' />
+          <member value='&quot;Nevada&quot;' />
+          <member value='&quot;New Hampshire&quot;' />
+          <member value='&quot;New Jersey&quot;' />
+          <member value='&quot;New Mexico&quot;' />
+          <member value='&quot;New York&quot;' />
+          <member value='&quot;North Carolina&quot;' />
+          <member value='&quot;North Dakota&quot;' />
+          <member value='&quot;Ohio&quot;' />
+          <member value='&quot;Oklahoma&quot;' />
+          <member value='&quot;Oregon&quot;' />
+          <member value='&quot;Pennsylvania&quot;' />
+          <member value='&quot;Rhode Island&quot;' />
+          <member value='&quot;South Carolina&quot;' />
+          <member value='&quot;South Dakota&quot;' />
+          <member value='&quot;Tennessee&quot;' />
+          <member value='&quot;Texas&quot;' />
+          <member value='&quot;Utah&quot;' />
+          <member value='&quot;Vermont&quot;' />
+          <member value='&quot;Virginia&quot;' />
+          <member value='&quot;Washington&quot;' />
+          <member value='&quot;West Virginia&quot;' />
+          <member value='&quot;Wisconsin&quot;' />
+          <member value='&quot;Wyoming&quot;' />
+        </members>
+      </column>
+      <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+        <calculation class='tableau' formula='0.' />
+        <aliases>
+          <alias key='0.' value='All Months' />
+          <alias key='1.' value='January' />
+          <alias key='2.' value='Feburary' />
+          <alias key='3.' value='March' />
+          <alias key='4.' value='April' />
+          <alias key='5.' value='May' />
+          <alias key='6.' value='June' />
+          <alias key='7.' value='July' />
+          <alias key='8.' value='August' />
+          <alias key='9.' value='September' />
+          <alias key='10.' value='October' />
+          <alias key='11.' value='November' />
+          <alias key='12.' value='December' />
+        </aliases>
+        <members>
+          <member alias='All Months' value='0.' />
+          <member alias='January' value='1.' />
+          <member alias='Feburary' value='2.' />
+          <member alias='March' value='3.' />
+          <member alias='April' value='4.' />
+          <member alias='May' value='5.' />
+          <member alias='June' value='6.' />
+          <member alias='July' value='7.' />
+          <member alias='August' value='8.' />
+          <member alias='September' value='9.' />
+          <member alias='October' value='10.' />
+          <member alias='November' value='11.' />
+          <member alias='December' value='12.' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='state_monthly_flattened' inline='true' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='state_monthly_flattened' name='textscan.0t3rqgv0jdcjt915r9bob0b3i4jd'>
+            <connection class='textscan' directory='C:/Users/kb8uv/OneDrive/Documents/Franklin/DATA 605 Data Visualizations/DATA-605/DATA-605/Scripts' filename='state_monthly_flattened.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0t3rqgv0jdcjt915r9bob0b3i4jd' name='state_monthly_flattened.csv' table='[state_monthly_flattened#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='integer' name='State Code' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='integer' name='Month' ordinal='3' />
+            <column datatype='real' name='PDSI' ordinal='4' />
+            <column datatype='string' name='Drought Category' ordinal='5' />
+            <column datatype='real' name='Actual Precipitation (inches)' ordinal='6' />
+            <column datatype='real' name='Normal Precipitation (inches)' ordinal='7' />
+            <column datatype='real' name='Difference from Normal (inches)' ordinal='8' />
+            <column datatype='real' name='Average Temperature (F)' ordinal='9' />
+            <column datatype='real' name='Normal Temperature (F)' ordinal='10' />
+            <column datatype='real' name='Difference from Normal (F)' ordinal='11' />
+            <column datatype='integer' name='Wildfire Incidents' ordinal='12' />
+            <column datatype='real' name='Acres Burned' ordinal='13' />
+            <column datatype='string' name='Common Key' ordinal='14' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[State Code]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>State Code</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PDSI</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PDSI]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>PDSI</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Drought Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Drought Category]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Drought Category</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Actual Precipitation (inches)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Actual Precipitation (inches)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Actual Precipitation (inches)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Normal Precipitation (inches)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Normal Precipitation (inches)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Normal Precipitation (inches)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difference from Normal (inches)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Difference from Normal (inches)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Difference from Normal (inches)</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average Temperature (F)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average Temperature (F)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Average Temperature (F)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Normal Temperature (F)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Normal Temperature (F)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Normal Temperature (F)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Difference from Normal (F)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Difference from Normal (F)]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Difference from Normal (F)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wildfire Incidents</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wildfire Incidents]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Wildfire Incidents</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Acres Burned</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Acres Burned]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Acres Burned</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Common Key</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Common Key]</local-name>
+            <parent-name>[state_monthly_flattened.csv]</parent-name>
+            <remote-alias>Common Key</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Actual Precipitation (inches):qk]&quot;' value='Avg. Precip (in.)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Average Temperature (F):qk]&quot;' value='Avg. Temp (F)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]&quot;' value='Delta from Norm (F)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Precipitation (inches):qk]&quot;' value='Norm Precip (in.)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Temperature (F):qk]&quot;' value='Norm Temp (F)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]&quot;' value='PDSI (Drought)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Difference from Normal (inches):qk]&quot;' value='Delta from Norm (in.)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Normal Precipitation (inches):qk]&quot;' value='Normal Precip (in.)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Normal Temperature (F):qk]&quot;' value='Normal Temp (F)' />
+          <alias key='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:PDSI:qk]&quot;' value='PDSI (drought)' />
+        </aliases>
+      </column>
+      <column datatype='real' name='[Acres Burned]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Actual Precipitation (inches)]' role='measure' type='quantitative' />
+      <column datatype='real' datatype-customized='true' name='[Average Temperature (F)]' role='measure' type='quantitative' />
+      <column caption='Drought Segment' datatype='string' name='[Calculation_1801887638204416]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [PDSI] &gt; 0 THEN &quot;Normal to Moist&quot; &#13;&#10;ELSE &quot;Drought&quot;&#13;&#10;END' />
+      </column>
+      <column caption='Month Filter' datatype='boolean' name='[Calculation_1801887639666689]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Parameters].[Parameter 2089409922101248] = 0 OR [Parameters].[Parameter 2089409922101248] = [Month]' />
+      </column>
+      <column caption='Acres Burned by Incident' datatype='real' name='[Calculation_1801887641333762]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Acres Burned]/[Wildfire Incidents]' />
+      </column>
+      <column aggregation='Sum' caption='YearMonth' datatype='integer' name='[Calculation_1801887654858755]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='([Year]*100) + [Month]' />
+      </column>
+      <column caption='Multi-Decade Avg Precipitation (inches)' datatype='real' name='[Calculation_1801887658561540]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Actual Precipitation (inches)])' />
+      </column>
+      <column caption='State Filter' datatype='boolean' name='[Calculation_1801887785897990]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[Parameters].[Parameter 1801887785537541] = &quot;All States&quot; OR [Parameters].[Parameter 1801887785537541] = [State]' />
+      </column>
+      <column datatype='real' name='[Difference from Normal (F)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Difference from Normal (inches)]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='real' name='[Normal Precipitation (inches)]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Normal Temperature (F)]' role='measure' type='quantitative' />
+      <column caption='Pdsi' datatype='real' name='[PDSI]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[State Code]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column datatype='integer' name='[Wildfire Incidents]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='state_monthly_flattened.csv' datatype='table' name='[__tableau_internal_object_id__].[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]' role='measure' type='quantitative' />
+      <column-instance column='[PDSI]' derivation='Attribute' name='[attr:PDSI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Acres Burned]' derivation='Avg' name='[avg:Acres Burned:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Actual Precipitation (inches)]' derivation='Avg' name='[avg:Actual Precipitation (inches):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Average Temperature (F)]' derivation='Avg' name='[avg:Average Temperature (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Difference from Normal (F)]' derivation='Avg' name='[avg:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Normal Precipitation (inches)]' derivation='Avg' name='[avg:Normal Precipitation (inches):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Normal Temperature (F)]' derivation='Avg' name='[avg:Normal Temperature (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PDSI]' derivation='Avg' name='[avg:PDSI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Difference from Normal (F)]' derivation='Max' name='[max:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Difference from Normal (F)]' derivation='Median' name='[med:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Difference from Normal (F)]' derivation='Min' name='[min:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1801887638204416]' derivation='None' name='[none:Calculation_1801887638204416:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Acres Burned]' derivation='Sum' name='[sum:Acres Burned:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Actual Precipitation (inches)]' derivation='Sum' name='[sum:Actual Precipitation (inches):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Difference from Normal (inches)]' derivation='Sum' name='[sum:Difference from Normal (inches):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Normal Precipitation (inches)]' derivation='Sum' name='[sum:Normal Precipitation (inches):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Normal Temperature (F)]' derivation='Sum' name='[sum:Normal Temperature (F):qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PDSI]' derivation='Sum' name='[sum:PDSI:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Wildfire Incidents]' derivation='Sum' name='[sum:Wildfire Incidents:qk]' pivot='key' type='quantitative' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='Data/TableauTemp/#TableauTemp_1g0pxkq0thtju01cub23i06pieji.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/04/2026 01:20:00 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State Code</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[State Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State Code</remote-alias>
+              <ordinal>1</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>50</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>2</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>42</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>3</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PDSI</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[PDSI]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PDSI</remote-alias>
+              <ordinal>4</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2005</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Drought Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Drought Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Drought Category</remote-alias>
+              <ordinal>5</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Actual Precipitation (inches)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Actual Precipitation (inches)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Actual Precipitation (inches)</remote-alias>
+              <ordinal>6</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1453</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Normal Precipitation (inches)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Normal Precipitation (inches)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Normal Precipitation (inches)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>512</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Difference from Normal (inches)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Difference from Normal (inches)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Difference from Normal (inches)</remote-alias>
+              <ordinal>8</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1264</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Average Temperature (F)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Average Temperature (F)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Average Temperature (F)</remote-alias>
+              <ordinal>9</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1466</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Normal Temperature (F)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Normal Temperature (F)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Normal Temperature (F)</remote-alias>
+              <ordinal>10</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Difference from Normal (F)</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Difference from Normal (F)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Difference from Normal (F)</remote-alias>
+              <ordinal>11</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2486</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Wildfire Incidents</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Wildfire Incidents]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Wildfire Incidents</remote-alias>
+              <ordinal>12</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>986</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Acres Burned</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Acres Burned]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Acres Burned</remote-alias>
+              <ordinal>13</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5925</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Common Key</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Common Key]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Common Key</remote-alias>
+              <ordinal>14</ordinal>
+              <family>state_monthly_flattened.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24984</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Actual Precipitation (inches):qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Actual Precipitation (inches):qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[attr:PDSI:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Acres Burned:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[max:Difference from Normal (F):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[med:Difference from Normal (F):qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[min:Difference from Normal (F):qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Wildfire Incidents:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='shape' field='[none:Calculation_1801887638204416:nk]' type='shape'>
+            <map to='circle'>
+              <bucket>&quot;Normal to Moist&quot;</bucket>
+            </map>
+            <map to='down-triangle'>
+              <bucket>&quot;Drought&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Select State' datatype='string' name='[Parameter 1801887785537541]' param-domain-type='list' role='measure' type='nominal' value='&quot;All States&quot;'>
+          <calculation class='tableau' formula='&quot;All States&quot;' />
+        </column>
+        <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+          <calculation class='tableau' formula='0.' />
+          <aliases>
+            <alias key='0.' value='All Months' />
+            <alias key='1.' value='January' />
+            <alias key='2.' value='Feburary' />
+            <alias key='3.' value='March' />
+            <alias key='4.' value='April' />
+            <alias key='5.' value='May' />
+            <alias key='6.' value='June' />
+            <alias key='7.' value='July' />
+            <alias key='8.' value='August' />
+            <alias key='9.' value='September' />
+            <alias key='10.' value='October' />
+            <alias key='11.' value='November' />
+            <alias key='12.' value='December' />
+          </aliases>
+        </column>
+      </datasource-dependencies>
+      <filter class='quantitative' column='[Year]' filter-group='2' included-values='in-range'>
+        <min>1992</min>
+        <max>2024</max>
+      </filter>
+      <object-graph>
+        <objects>
+          <object caption='state_monthly_flattened.csv' id='state_monthly_flattened.csv_993ADC9AAFB94C6A950AAE76F010CBD0'>
+            <properties context=''>
+              <relation connection='textscan.0t3rqgv0jdcjt915r9bob0b3i4jd' name='state_monthly_flattened.csv' table='[state_monthly_flattened#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='integer' name='State Code' ordinal='1' />
+                  <column datatype='integer' name='Year' ordinal='2' />
+                  <column datatype='integer' name='Month' ordinal='3' />
+                  <column datatype='real' name='PDSI' ordinal='4' />
+                  <column datatype='string' name='Drought Category' ordinal='5' />
+                  <column datatype='real' name='Actual Precipitation (inches)' ordinal='6' />
+                  <column datatype='real' name='Normal Precipitation (inches)' ordinal='7' />
+                  <column datatype='real' name='Difference from Normal (inches)' ordinal='8' />
+                  <column datatype='real' name='Average Temperature (F)' ordinal='9' />
+                  <column datatype='real' name='Normal Temperature (F)' ordinal='10' />
+                  <column datatype='real' name='Difference from Normal (F)' ordinal='11' />
+                  <column datatype='integer' name='Wildfire Incidents' ordinal='12' />
+                  <column datatype='real' name='Acres Burned' ordinal='13' />
+                  <column datatype='string' name='Common Key' ordinal='14' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Multi-Decadal Trends in Temperature Anomalies and Wildfire Acreage'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column datatype='real' name='[Acres Burned]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Difference from Normal (F)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Difference from Normal (F)]' derivation='Avg' name='[avg:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Acres Burned]' derivation='Sum' name='[sum:Acres Burned:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk] + [federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk])</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{67DC5C15-E2E2-48C4-950E-7215073B172E}' />
+    </worksheet>
+    <worksheet name='Summary of Climate and Wildfire Incidents'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+              <calculation class='tableau' formula='0.' />
+              <aliases>
+                <alias key='0.' value='All Months' />
+                <alias key='1.' value='January' />
+                <alias key='2.' value='Feburary' />
+                <alias key='3.' value='March' />
+                <alias key='4.' value='April' />
+                <alias key='5.' value='May' />
+                <alias key='6.' value='June' />
+                <alias key='7.' value='July' />
+                <alias key='8.' value='August' />
+                <alias key='9.' value='September' />
+                <alias key='10.' value='October' />
+                <alias key='11.' value='November' />
+                <alias key='12.' value='December' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column datatype='real' name='[Acres Burned]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Actual Precipitation (inches)]' role='measure' type='quantitative' />
+            <column datatype='real' datatype-customized='true' name='[Average Temperature (F)]' role='measure' type='quantitative' />
+            <column caption='Month Filter' datatype='boolean' name='[Calculation_1801887639666689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Parameters].[Parameter 2089409922101248] = 0 OR [Parameters].[Parameter 2089409922101248] = [Month]' />
+            </column>
+            <column datatype='real' name='[Difference from Normal (F)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Difference from Normal (inches)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[Normal Precipitation (inches)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Normal Temperature (F)]' role='measure' type='quantitative' />
+            <column caption='Pdsi' datatype='real' name='[PDSI]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Actual Precipitation (inches)]' derivation='Avg' name='[avg:Actual Precipitation (inches):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Average Temperature (F)]' derivation='Avg' name='[avg:Average Temperature (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difference from Normal (F)]' derivation='Avg' name='[avg:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difference from Normal (inches)]' derivation='Avg' name='[avg:Difference from Normal (inches):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Normal Precipitation (inches)]' derivation='Avg' name='[avg:Normal Precipitation (inches):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Normal Temperature (F)]' derivation='Avg' name='[avg:Normal Temperature (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PDSI]' derivation='Avg' name='[avg:PDSI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1801887639666689]' derivation='None' name='[none:Calculation_1801887639666689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Acres Burned]' derivation='Sum' name='[sum:Acres Burned:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Temperature (F):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Average Temperature (F):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Precipitation (inches):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Actual Precipitation (inches):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (inches):qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Temperature (F):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Average Temperature (F):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Precipitation (inches):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Actual Precipitation (inches):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (inches):qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1801887639666689:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]' direction='DESC' using='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' />
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]</column>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]</column>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' value='142' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Actual Precipitation (inches):qk]' value='*0.00' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]' value='*0.00' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Average Temperature (F):qk]' value='*00.0' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Temperature (F):qk]' value='*00.0' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Normal Precipitation (inches):qk]' value='*0.00' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (inches):qk]' value='*0.00' />
+            <format attr='text-format' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' value='*0.00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{1E5DD995-F2FE-4787-80F7-91F380664606}' />
+    </worksheet>
+    <worksheet name='Total Acres Burned and Temperature Departure'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+            <datasource name='Parameters' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+              <calculation class='tableau' formula='0.' />
+              <aliases>
+                <alias key='0.' value='All Months' />
+                <alias key='1.' value='January' />
+                <alias key='2.' value='Feburary' />
+                <alias key='3.' value='March' />
+                <alias key='4.' value='April' />
+                <alias key='5.' value='May' />
+                <alias key='6.' value='June' />
+                <alias key='7.' value='July' />
+                <alias key='8.' value='August' />
+                <alias key='9.' value='September' />
+                <alias key='10.' value='October' />
+                <alias key='11.' value='November' />
+                <alias key='12.' value='December' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column datatype='real' name='[Acres Burned]' role='measure' type='quantitative' />
+            <column caption='Month Filter' datatype='boolean' name='[Calculation_1801887639666689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Parameters].[Parameter 2089409922101248] = 0 OR [Parameters].[Parameter 2089409922101248] = [Month]' />
+            </column>
+            <column datatype='real' name='[Difference from Normal (inches)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Calculation_1801887639666689]' derivation='None' name='[none:Calculation_1801887639666689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Acres Burned]' derivation='Sum' name='[sum:Acres Burned:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Difference from Normal (inches)]' derivation='Sum' name='[sum:Difference from Normal (inches):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1801887639666689:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]</column>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Longitude (generated)]' field-type='quantitative' max='-7216213.1751096491' min='-14236538.212469168' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Latitude (generated)]' field-type='quantitative' max='6374169.0434929412' min='2820273.2706812341' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' palette='orange_gold_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' />
+              <text column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Difference from Normal (inches):qk]' />
+              <lod column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]' />
+              <geometry column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-transparency' value='231' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Latitude (generated)]</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{13EBE9C4-A4CC-483B-9B2E-21B73F2B5154}' />
+    </worksheet>
+    <worksheet name='Total Acres Burned by Drought Segment'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+              <calculation class='tableau' formula='0.' />
+              <aliases>
+                <alias key='0.' value='All Months' />
+                <alias key='1.' value='January' />
+                <alias key='2.' value='Feburary' />
+                <alias key='3.' value='March' />
+                <alias key='4.' value='April' />
+                <alias key='5.' value='May' />
+                <alias key='6.' value='June' />
+                <alias key='7.' value='July' />
+                <alias key='8.' value='August' />
+                <alias key='9.' value='September' />
+                <alias key='10.' value='October' />
+                <alias key='11.' value='November' />
+                <alias key='12.' value='December' />
+              </aliases>
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column datatype='real' name='[Acres Burned]' role='measure' type='quantitative' />
+            <column caption='Drought Segment' datatype='string' name='[Calculation_1801887638204416]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [PDSI] &gt; 0 THEN &quot;Normal to Moist&quot; &#13;&#10;ELSE &quot;Drought&quot;&#13;&#10;END' />
+            </column>
+            <column caption='Month Filter' datatype='boolean' name='[Calculation_1801887639666689]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Parameters].[Parameter 2089409922101248] = 0 OR [Parameters].[Parameter 2089409922101248] = [Month]' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Pdsi' datatype='real' name='[PDSI]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[PDSI]' derivation='Avg' name='[avg:PDSI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1801887638204416]' derivation='None' name='[none:Calculation_1801887638204416:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1801887639666689]' derivation='None' name='[none:Calculation_1801887639666689:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Acres Burned]' derivation='Sum' name='[sum:Acres Burned:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1801887639666689:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Alabama&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arizona&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Arkansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;California&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Colorado&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Connecticut&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Delaware&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Florida&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Georgia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Idaho&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Indiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Iowa&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kansas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Kentucky&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Louisiana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maine&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Maryland&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Massachusetts&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Michigan&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Minnesota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Mississippi&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Missouri&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Montana&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Nevada&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Hampshire&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Jersey&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New Mexico&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;New York&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;North Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Ohio&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oklahoma&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Oregon&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Pennsylvania&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Rhode Island&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Carolina&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;South Dakota&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Tennessee&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Texas&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Utah&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Vermont&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Washington&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;West Virginia&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wisconsin&quot;' />
+              <groupfilter function='member' level='[none:State:nk]' member='&quot;Wyoming&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]</column>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887639666689:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' />
+              <size column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' />
+              <text column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:State:nk]' />
+              <text column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887638204416:nk]</cols>
+      </table>
+      <simple-id uuid='{90159412-8CE8-4D0A-BC90-EF3CE544C899}' />
+    </worksheet>
+    <worksheet name='Total Incidents by Drought Category with Average Temp Departure'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column datatype='real' name='[Difference from Normal (F)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Drought Category]' role='dimension' type='nominal' />
+            <column caption='Pdsi' datatype='real' name='[PDSI]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Wildfire Incidents]' role='measure' type='quantitative' />
+            <column-instance column='[Difference from Normal (F)]' derivation='Avg' name='[avg:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PDSI]' derivation='Avg' name='[avg:PDSI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Drought Category]' derivation='None' name='[none:Drought Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wildfire Incidents]' derivation='Sum' name='[sum:Wildfire Incidents:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Drought Category:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Extreme Drought&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Extremely Wet&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Incipient Drought&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Mild Drought&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Moderate Drought&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Moderately Wet&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Near Normal&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Severe Drought&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Slightly Wet&quot;' />
+              <groupfilter function='member' level='[none:Drought Category:nk]' member='&quot;Very Wet&quot;' />
+            </groupfilter>
+          </filter>
+          <computed-sort column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Drought Category:nk]' direction='DESC' using='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Wildfire Incidents:qk]' />
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Drought Category:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' palette='red_gold_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' />
+              <text column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Wildfire Incidents:qk]</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Drought Category:nk]</cols>
+      </table>
+      <simple-id uuid='{2A675DAC-B32F-4242-B751-0A05BFC45957}' />
+    </worksheet>
+    <worksheet name='Wildfire Incidents Correlation to PDSI'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Select State' datatype='string' name='[Parameter 1801887785537541]' param-domain-type='list' role='measure' type='nominal' value='&quot;All States&quot;'>
+              <calculation class='tableau' formula='&quot;All States&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column aggregation='Sum' caption='YearMonth' datatype='integer' name='[Calculation_1801887654858755]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='([Year]*100) + [Month]' />
+            </column>
+            <column caption='State Filter' datatype='boolean' name='[Calculation_1801887785897990]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Parameters].[Parameter 1801887785537541] = &quot;All States&quot; OR [Parameters].[Parameter 1801887785537541] = [State]' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Pdsi' datatype='real' name='[PDSI]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Wildfire Incidents]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[PDSI]' derivation='Avg' name='[avg:PDSI:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1801887654858755]' derivation='None' name='[none:Calculation_1801887654858755:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1801887785897990]' derivation='None' name='[none:Calculation_1801887785897990:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wildfire Incidents]' derivation='Sum' name='[sum:Wildfire Incidents:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887785897990:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1801887785897990:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887785897990:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887654858755:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='trendline'>
+                <format attr='line-visibility' value='on' />
+                <format attr='line-pattern-only' value='dotted' />
+                <format attr='stroke-size' value='2' />
+                <format attr='stroke-color' value='#89898967' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Wildfire Incidents:qk]</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]</cols>
+      </table>
+      <simple-id uuid='{F65BB3CD-3DE5-4267-B891-1027265B18AB}' />
+    </worksheet>
+    <worksheet name='Wildfire Incidents Correlation to Temperature Departure'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='state_monthly_flattened' name='federated.0qc7dc80cwydqd1e8tsvi0ddhek4' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Select State' datatype='string' name='[Parameter 1801887785537541]' param-domain-type='list' role='measure' type='nominal' value='&quot;All States&quot;'>
+              <calculation class='tableau' formula='&quot;All States&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.0qc7dc80cwydqd1e8tsvi0ddhek4'>
+            <column aggregation='Sum' caption='YearMonth' datatype='integer' name='[Calculation_1801887654858755]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='([Year]*100) + [Month]' />
+            </column>
+            <column caption='State Filter' datatype='boolean' name='[Calculation_1801887785897990]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='[Parameters].[Parameter 1801887785537541] = &quot;All States&quot; OR [Parameters].[Parameter 1801887785537541] = [State]' />
+            </column>
+            <column datatype='real' name='[Difference from Normal (F)]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='integer' name='[Wildfire Incidents]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Difference from Normal (F)]' derivation='Avg' name='[avg:Difference from Normal (F):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1801887654858755]' derivation='None' name='[none:Calculation_1801887654858755:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1801887785897990]' derivation='None' name='[none:Calculation_1801887785897990:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Wildfire Incidents]' derivation='Sum' name='[sum:Wildfire Incidents:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887785897990:nk]'>
+            <groupfilter function='member' level='[none:Calculation_1801887785897990:nk]' member='true' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887785897990:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]' palette='orange_blue_diverging_10_0' reverse='true' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[none:Calculation_1801887654858755:ok]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='trendline'>
+                <format attr='line-visibility' value='on' />
+                <format attr='line-pattern-only' value='dotted' />
+                <format attr='stroke-size' value='2' />
+                <format attr='stroke-color' value='#89898967' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Wildfire Incidents:qk]</rows>
+        <cols>[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:Difference from Normal (F):qk]</cols>
+      </table>
+      <simple-id uuid='{76CCF5D3-4E7F-43FB-93C9-0786FAEA67A1}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='U.S. Wildfire Risk &amp; Climate Dynamics Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+            <run>Æ&#10;</run>
+            <run fontsize='11'><![CDATA[<[Parameters].[Parameter 1801887785537541]> - <[Parameters].[Parameter 2089409922101248]> 1992-2025]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='880' maxwidth='1366' minheight='700' minwidth='1000' sizing-mode='range' />
+      <datasources>
+        <datasource name='Parameters' />
+      </datasources>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Select State' datatype='string' name='[Parameter 1801887785537541]' param-domain-type='list' role='measure' type='nominal' value='&quot;All States&quot;'>
+          <calculation class='tableau' formula='&quot;All States&quot;' />
+          <members>
+            <member value='&quot;All States&quot;' />
+            <member value='&quot;Alabama&quot;' />
+            <member value='&quot;Arizona&quot;' />
+            <member value='&quot;Arkansas&quot;' />
+            <member value='&quot;California&quot;' />
+            <member value='&quot;Colorado&quot;' />
+            <member value='&quot;Connecticut&quot;' />
+            <member value='&quot;Delaware&quot;' />
+            <member value='&quot;Florida&quot;' />
+            <member value='&quot;Georgia&quot;' />
+            <member value='&quot;Idaho&quot;' />
+            <member value='&quot;Illinois&quot;' />
+            <member value='&quot;Indiana&quot;' />
+            <member value='&quot;Iowa&quot;' />
+            <member value='&quot;Kansas&quot;' />
+            <member value='&quot;Kentucky&quot;' />
+            <member value='&quot;Louisiana&quot;' />
+            <member value='&quot;Maine&quot;' />
+            <member value='&quot;Maryland&quot;' />
+            <member value='&quot;Massachusetts&quot;' />
+            <member value='&quot;Michigan&quot;' />
+            <member value='&quot;Minnesota&quot;' />
+            <member value='&quot;Mississippi&quot;' />
+            <member value='&quot;Missouri&quot;' />
+            <member value='&quot;Montana&quot;' />
+            <member value='&quot;Nebraska&quot;' />
+            <member value='&quot;Nevada&quot;' />
+            <member value='&quot;New Hampshire&quot;' />
+            <member value='&quot;New Jersey&quot;' />
+            <member value='&quot;New Mexico&quot;' />
+            <member value='&quot;New York&quot;' />
+            <member value='&quot;North Carolina&quot;' />
+            <member value='&quot;North Dakota&quot;' />
+            <member value='&quot;Ohio&quot;' />
+            <member value='&quot;Oklahoma&quot;' />
+            <member value='&quot;Oregon&quot;' />
+            <member value='&quot;Pennsylvania&quot;' />
+            <member value='&quot;Rhode Island&quot;' />
+            <member value='&quot;South Carolina&quot;' />
+            <member value='&quot;South Dakota&quot;' />
+            <member value='&quot;Tennessee&quot;' />
+            <member value='&quot;Texas&quot;' />
+            <member value='&quot;Utah&quot;' />
+            <member value='&quot;Vermont&quot;' />
+            <member value='&quot;Virginia&quot;' />
+            <member value='&quot;Washington&quot;' />
+            <member value='&quot;West Virginia&quot;' />
+            <member value='&quot;Wisconsin&quot;' />
+            <member value='&quot;Wyoming&quot;' />
+          </members>
+        </column>
+        <column alias='All Months' caption='Select Month' datatype='real' name='[Parameter 2089409922101248]' param-domain-type='list' role='measure' type='quantitative' value='0.'>
+          <calculation class='tableau' formula='0.' />
+          <aliases>
+            <alias key='0.' value='All Months' />
+            <alias key='1.' value='January' />
+            <alias key='2.' value='Feburary' />
+            <alias key='3.' value='March' />
+            <alias key='4.' value='April' />
+            <alias key='5.' value='May' />
+            <alias key='6.' value='June' />
+            <alias key='7.' value='July' />
+            <alias key='8.' value='August' />
+            <alias key='9.' value='September' />
+            <alias key='10.' value='October' />
+            <alias key='11.' value='November' />
+            <alias key='12.' value='December' />
+          </aliases>
+          <members>
+            <member alias='All Months' value='0.' />
+            <member alias='January' value='1.' />
+            <member alias='Feburary' value='2.' />
+            <member alias='March' value='3.' />
+            <member alias='April' value='4.' />
+            <member alias='May' value='5.' />
+            <member alias='June' value='6.' />
+            <member alias='July' value='7.' />
+            <member alias='August' value='8.' />
+            <member alias='September' value='9.' />
+            <member alias='October' value='10.' />
+            <member alias='November' value='11.' />
+            <member alias='December' value='12.' />
+          </members>
+        </column>
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97714' id='20' param='vert' type-v2='layout-flow' w='98828' x='586' y='1143'>
+            <zone h='8857' id='21' type-v2='title' w='98828' x='586' y='1143'>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='88857' id='18' type-v2='layout-basic' w='98828' x='586' y='10000'>
+              <zone h='69006' id='7' param='horz' type-v2='layout-flow' w='98828' x='586' y='10000'>
+                <zone h='69006' id='5' type-v2='layout-basic' w='87115' x='586' y='10000'>
+                  <zone h='34499' id='3' name='Wildfire Incidents Correlation to PDSI' w='43557' x='586' y='10000'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='34507' id='10' name='Wildfire Incidents Correlation to Temperature Departure' w='43557' x='586' y='44499'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='34499' id='11' name='Total Acres Burned and Temperature Departure' w='43558' x='44143' y='10000'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='34507' id='13' name='Total Acres Burned by Drought Segment' w='43558' x='44143' y='44499'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+                <zone fixed-size='160' h='69006' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='11713' x='87701' y='10000'>
+                  <zone h='7429' id='8' mode='compact' param='[Parameters].[Parameter 1801887785537541]' type-v2='paramctrl' w='11713' x='87701' y='10000'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='7429' id='9' mode='compact' param='[Parameters].[Parameter 2089409922101248]' type-v2='paramctrl' w='11713' x='87701' y='17429'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9286' id='12' name='Total Acres Burned and Temperature Departure' pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' type-v2='color' w='11713' x='87701' y='24858'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone h='9286' id='14' name='Total Acres Burned by Drought Segment' pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' type-v2='color' w='11713' x='87701' y='34144'>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                  <zone forceUpdate='true' h='10857' id='22' type-v2='text' w='11713' x='87701' y='43430'>
+                    <formatted-text>
+                      <run>PDSI is a measure of drought, the lower the number indicates drought conditions.</run>
+                    </formatted-text>
+                    <zone-style>
+                      <format attr='border-color' value='#444444' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='19851' id='15' name='Summary of Climate and Wildfire Incidents' w='98828' x='586' y='79006'>
+                <zone-style>
+                  <format attr='border-color' value='#444444' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#444444' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true'>&lt;Sheet Name&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontsize='11'><![CDATA[<[Parameters].[Parameter 1801887785537541]> - <[Parameters].[Parameter 2089409922101248]> 1992-2025]]></run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98182' id='25' param='vert' type-v2='layout-flow' w='98828' x='586' y='909'>
+                <zone h='7045' id='21' type-v2='title' w='98828' x='586' y='909'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35385' id='3' is-fixed='true' name='Wildfire Incidents Correlation to PDSI' w='43557' x='586' y='7954'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35385' id='11' is-fixed='true' name='Total Acres Burned and Temperature Departure' w='43558' x='44143' y='7954'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7386' id='12' name='Total Acres Burned and Temperature Departure' pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' type-v2='color' w='11713' x='87701' y='19772'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5909' id='8' mode='compact' param='[Parameters].[Parameter 1801887785537541]' type-v2='paramctrl' w='11713' x='87701' y='7954'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5909' id='9' mode='compact' param='[Parameters].[Parameter 2089409922101248]' type-v2='paramctrl' w='11713' x='87701' y='13863'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8636' id='22' type-v2='text' w='11713' x='87701' y='34544'>
+                  <formatted-text>
+                    <run>PDSI is a measure of drought, the lower the number indicates drought conditions.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35392' id='10' is-fixed='true' name='Wildfire Incidents Correlation to Temperature Departure' w='43557' x='586' y='43339'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35392' id='13' is-fixed='true' name='Total Acres Burned by Drought Segment' w='43558' x='44143' y='43339'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7386' id='14' name='Total Acres Burned by Drought Segment' pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' type-v2='color' w='11713' x='87701' y='27158'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='171' h='20360' id='15' is-fixed='true' name='Summary of Climate and Wildfire Incidents' w='98828' x='586' y='78731'>
+                  <zone-style>
+                    <format attr='border-color' value='#444444' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#444444' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5B36DEA3-0067-4700-93E5-AA662C7D493C}' />
+    </dashboard>
+  </dashboards>
+  <windows show-side-pane='false' source-height='30'>
+    <window class='dashboard' name='U.S. Wildfire Risk &amp; Climate Dynamics Dashboard'>
+      <viewpoints>
+        <viewpoint name='Summary of Climate and Wildfire Incidents' />
+        <viewpoint name='Total Acres Burned and Temperature Departure'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Acres Burned by Drought Segment' />
+        <viewpoint name='Wildfire Incidents Correlation to PDSI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Wildfire Incidents Correlation to Temperature Departure'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7AA9E7BC-4167-408F-A8F1-7AA42B218036}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Total Acres Burned by Drought Segment'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' type='color' />
+            <card mode='compact' param='[Parameters].[Parameter 2089409922101248]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C78A1F2E-70C2-4965-ADBC-885476E55214}' />
+    </window>
+    <window class='worksheet' name='Total Acres Burned and Temperature Departure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 2089409922101248]' type='parameter' />
+            <card pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[sum:Acres Burned:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4FF5F013-1AA3-49DC-AE2F-35CE8FC19065}' />
+    </window>
+    <window class='worksheet' name='Total Incidents by Drought Category with Average Temp Departure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[avg:PDSI:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4C7926CB-E7AD-488D-8679-E047EAEAE53B}' />
+    </window>
+    <window class='worksheet' name='Multi-Decadal Trends in Temperature Anomalies and Wildfire Acreage'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0qc7dc80cwydqd1e8tsvi0ddhek4].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EB10D365-2769-44B5-98D1-A18D6F920EAD}' />
+    </window>
+    <window class='worksheet' name='Summary of Climate and Wildfire Incidents'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 2089409922101248]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{326A5BB0-FD14-4EA1-8ED9-CEEAD7D924D3}' />
+    </window>
+    <window class='worksheet' name='Wildfire Incidents Correlation to PDSI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1801887785537541]' type='parameter' />
+            <card mode='compact' param='[Parameters].[Parameter 2089409922101248]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0A72EFEC-3E54-411B-B1BF-D171C020E225}' />
+    </window>
+    <window class='worksheet' name='Wildfire Incidents Correlation to Temperature Departure'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1801887785537541]' type='parameter' />
+            <card mode='compact' param='[Parameters].[Parameter 2089409922101248]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4C4A74EF-0CD1-4DC9-B6C3-0C26486BFB92}' />
+    </window>
+  </windows>
+</workbook>
